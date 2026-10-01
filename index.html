@@ -1,0 +1,425 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Renata Pereira | Psicóloga infantil em Mauá (Shopping de Mauá)</title>
+  <meta name="description" content="Psicoterapia infantil com foco no brincar, em Mauá e online. Atendimento para ansiedade, medo, irritação, dificuldades escolares e de socialização. Renata Pereira, CRP 06/64053.">
+  <meta name="theme-color" content="#f8ddd0">
+  <link rel="canonical" href="https://psicologarenatapereira.com/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:site_name" content="Renata Pereira, Psicóloga">
+  <meta property="og:title" content="Renata Pereira | Psicóloga infantil em Mauá">
+  <meta property="og:description" content="O comportamento do seu filho pode estar pedindo ajuda. Psicoterapia infantil com foco no brincar, presencial em Mauá e online.">
+  <meta property="og:url" content="https://psicologarenatapereira.com/">
+  <meta property="og:image" content="https://psicologarenatapereira.com/assets/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Logotipo de Renata Pereira, Psicóloga">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- Favicon -->
+  <link rel="icon" href="assets/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+  <link rel="apple-touch-icon" href="assets/favicon-180.png">
+
+  <!-- Fontes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;700&family=Young+Serif&display=swap" rel="stylesheet">
+
+  <!-- Tailwind via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            ivory: "#fdfcfa",
+            peach: { 50: "#fef6f1", 100: "#fbe9df", 200: "#f8ddd0", 500: "#d9967a", 700: "#a8573a" },
+            ink: { DEFAULT: "#2b3a38", soft: "#55645f" }
+          },
+          maxWidth: { page: "88rem" }
+        }
+      }
+    };
+  </script>
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Dados estruturados -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Psychologist",
+    "name": "Renata Pereira, Psicóloga",
+    "url": "https://psicologarenatapereira.com/",
+    "telephone": "+55 11 99500-9347",
+    "image": "https://psicologarenatapereira.com/assets/og-image.jpg",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Rua do Comércio, 21, sala 206, Shopping de Mauá",
+      "addressLocality": "Mauá",
+      "addressRegion": "SP",
+      "postalCode": "09390-015",
+      "addressCountry": "BR"
+    },
+    "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "32" },
+    "sameAs": ["https://www.instagram.com/psicologarenatapereira/"]
+  }
+  </script>
+
+  <!-- Google Analytics 4: troque G-XXXXXXXXXX pelo ID real e remova o comentário -->
+  <!--
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+  -->
+  <!-- Meta Pixel (opcional): cole o código do Pixel aqui. O clique nos CTAs já dispara fbq('track','Contact') -->
+</head>
+
+<body>
+  <a href="#conteudo" class="sr-only focus:not-sr-only focus:fixed focus:left-3 focus:top-3 focus:z-[60] focus:rounded-full focus:bg-ink focus:px-4 focus:py-2 focus:text-white">Pular para o conteúdo</a>
+
+  <!-- CABEÇALHO -->
+  <header id="top" class="sticky top-0 z-40 border-b border-peach-200/70 bg-white transition-shadow">
+    <div class="mx-auto flex max-w-page items-center justify-between gap-4 px-5 py-3 md:px-10">
+      <a href="#inicio" class="flex items-center" aria-label="Renata Pereira, Psicóloga: início">
+        <img src="assets/logo.webp" alt="Renata Pereira, Psicóloga" width="690" height="830" class="logo-img h-[4.25rem] w-auto md:h-20">
+      </a>
+      <nav class="hidden items-center gap-8 text-[0.95rem] lg:flex" aria-label="Principal">
+        <a data-nav href="#servicos" class="link-u">Serviços</a>
+        <a data-nav href="#atendimento" class="link-u">Como funciona</a>
+        <a data-nav href="#ofertas" class="link-u">Planos</a>
+        <a data-nav href="#sobre" class="link-u">Sobre</a>
+        <a data-nav href="#avaliacoes" class="link-u">Avaliações</a>
+        <a data-nav href="#contato" class="link-u">Contato</a>
+      </nav>
+      <div class="flex items-center gap-2">
+        <a data-msg="Olá, Renata! Vim pelo site e gostaria de agendar um atendimento para meu filho(a)." data-track="header" href="https://wa.me/5511995009347" class="btn btn-primary !px-5 !py-3 text-sm">Agendar atendimento</a>
+        <button id="menu-btn" type="button" class="grid h-11 w-11 place-items-center rounded-full border border-peach-200 lg:hidden" aria-expanded="false" aria-controls="mobile-menu" aria-label="Abrir menu">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </button>
+      </div>
+    </div>
+    <nav id="mobile-menu" hidden class="border-t border-peach-200 bg-ivory px-5 pb-5 pt-2 lg:hidden" aria-label="Menu móvel">
+      <ul class="grid text-lg">
+        <li><a class="block border-b border-peach-100 py-3" href="#servicos">Serviços</a></li>
+        <li><a class="block border-b border-peach-100 py-3" href="#atendimento">Como funciona</a></li>
+        <li><a class="block border-b border-peach-100 py-3" href="#ofertas">Planos</a></li>
+        <li><a class="block border-b border-peach-100 py-3" href="#sobre">Sobre</a></li>
+        <li><a class="block border-b border-peach-100 py-3" href="#avaliacoes">Avaliações</a></li>
+        <li><a class="block py-3" href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="conteudo">
+
+    <!-- HERO -->
+    <section id="inicio" class="relative overflow-hidden">
+      <div class="mx-auto grid max-w-page items-center gap-12 px-5 pb-20 pt-10 md:px-10 lg:grid-cols-[1.15fr_.85fr] lg:gap-16 lg:pb-28 lg:pt-16">
+        <div class="max-w-2xl">
+          <p class="hero-in text-sm font-bold text-peach-700" style="--i:0">Psicóloga infantil em Mauá e online</p>
+          <h1 class="hero-in mt-4 text-[2.15rem] leading-[1.1] sm:text-5xl xl:text-[4.1rem]" style="--i:1">O comportamento do seu filho pode estar pedindo ajuda</h1>
+          <p class="hero-in mt-6 max-w-xl text-lg leading-relaxed text-ink-soft" style="--i:2">Atendimento infantil para crianças com ansiedade, medo, irritação, dificuldade escolar, socialização e outras mudanças que preocupam a família.</p>
+          <div class="hero-in mt-9 flex flex-wrap items-center gap-4" style="--i:3">
+            <a data-msg="Olá, Renata! Vim pelo site e gostaria de agendar um atendimento para meu filho(a)." data-track="hero" href="https://wa.me/5511995009347" class="btn btn-primary">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.8 14.2c-.2.7-1.4 1.3-1.9 1.3-.5.1-1.1.1-1.8-.1-.4-.1-1-.3-1.7-.6-3-1.3-4.9-4.3-5.1-4.5-.1-.2-1.2-1.6-1.2-3s.8-2.1 1-2.4c.3-.3.6-.3.8-.3h.6c.2 0 .4 0 .6.5l.9 2.1c.1.2.1.4 0 .5l-.4.6-.3.4c-.1.1-.3.3-.1.6.1.3.7 1.2 1.5 1.9 1 .9 1.9 1.2 2.2 1.3.3.1.4.1.6-.1l.8-1c.2-.3.4-.2.6-.1l2 1c.3.1.5.2.5.4.1.1.1.7-.1 1.4z"/></svg>
+              Agendar atendimento
+            </a>
+            <a href="#servicos" class="link-u font-bold">Ver como posso ajudar</a>
+          </div>
+          <div class="hero-in mt-10 flex items-center gap-3 border-t border-peach-200 pt-6" style="--i:4">
+            <span class="flex items-center gap-2" aria-label="Nota 5,0 de 5 no Google">
+              <svg width="22" height="22" viewBox="0 0 48 48" aria-hidden="true"><path fill="#EA4335" d="M24 9.5c3.5 0 6.6 1.2 9.1 3.6l6.8-6.8C35.8 2.4 30.3 0 24 0 14.6 0 6.5 5.4 2.6 13.2l7.9 6.1C12.4 13.6 17.7 9.5 24 9.5z"/><path fill="#4285F4" d="M46.5 24.5c0-1.6-.1-3.1-.4-4.5H24v9h12.7c-.6 3-2.3 5.5-4.8 7.2l7.5 5.8c4.4-4.1 7.1-10.1 7.1-17.5z"/><path fill="#FBBC05" d="M10.5 28.7a14.500 14.500 0 0 1 0-9.4l-7.9-6.1a24 24 0 0 0 0 21.600l7.900-6.100z"/><path fill="#34A853" d="M24 48c6.500 0 11.900-2.100 15.900-5.800l-7.500-5.800c-2.100 1.400-4.800 2.300-8.400 2.300-6.300 0-11.600-4.100-13.500-9.800l-7.900 6.100C6.500 42.600 14.600 48 24 48z"/></svg>
+              <span class="stars" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.1 6.6 7.200.9-5.300 5 1.400 7.200L12 18l-6.400 3.700L7 14.500 1.700 9.500l7.200-.9z"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.1 6.6 7.200.9-5.300 5 1.400 7.200L12 18l-6.400 3.700L7 14.500 1.700 9.500l7.200-.9z"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.1 6.6 7.200.9-5.300 5 1.400 7.200L12 18l-6.400 3.700L7 14.500 1.700 9.500l7.200-.9z"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.1 6.6 7.200.9-5.300 5 1.400 7.200L12 18l-6.400 3.700L7 14.500 1.700 9.500l7.200-.9z"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.1 6.6 7.200.9-5.300 5 1.400 7.200L12 18l-6.400 3.700L7 14.500 1.700 9.500l7.200-.9z"/></svg></span>
+            </span>
+            <p class="text-sm text-ink-soft"><strong class="text-ink">5,0</strong> com 32 avaliações no Google</p>
+          </div>
+        </div>
+
+        <div class="hero-in relative mx-auto w-full max-w-md lg:max-w-none" style="--i:2">
+          <div class="arch-back absolute inset-0 translate-x-4 translate-y-4 sm:translate-x-6 sm:translate-y-6" aria-hidden="true"></div>
+          <div class="arch relative aspect-[4/5] bg-peach-100">
+            <img src="assets/renata-1.webp" alt="Renata Pereira, psicóloga infantil, sorrindo" width="832" height="1248" class="h-full w-full object-cover object-[50%_28%]" fetchpriority="high">
+          </div>
+          <div class="absolute -bottom-5 left-2 rounded-2xl bg-white px-5 py-4 shadow-[0_20px_40px_-20px_rgba(43,58,56,.4)] sm:left-[-1.5rem]">
+            <p class="display text-3xl leading-none">24 anos</p>
+            <p class="mt-1 text-sm text-ink-soft">de prática clínica<br>CRP 06/64053</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SINAIS -->
+    <section class="bg-peach-100/60">
+      <div class="mx-auto grid max-w-page gap-10 px-5 py-20 md:px-10 lg:grid-cols-[.9fr_1.1fr] lg:gap-20 lg:py-28">
+        <h2 class="reveal text-3xl leading-tight sm:text-4xl lg:text-[2.8rem]">Nem sempre o sofrimento da criança vem em palavras</h2>
+        <div class="reveal max-w-[62ch] space-y-5 text-lg leading-[1.75] text-ink-soft" style="--d:100ms">
+          <p>Muitas vezes, o sofrimento aparece no comportamento, na irritação, no medo excessivo, nas dificuldades da escola, no choro, no isolamento ou na forma como ela reage dentro de casa.</p>
+          <p>E o mais difícil para a família é perceber que algo não vai bem, mas não saber ao certo como ajudar.</p>
+          <p class="display text-xl leading-snug text-ink">Se você chegou até aqui, não é exagero. É porque já percebeu que seu filho está dando sinais de que precisa de cuidado.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVIÇOS -->
+    <section id="servicos" class="mx-auto max-w-page px-5 py-20 md:px-10 lg:py-28">
+      <div class="grid gap-12 lg:grid-cols-[.8fr_1.2fr] lg:gap-20">
+        <div class="lg:sticky lg:top-28 lg:self-start">
+          <h2 class="reveal text-3xl leading-tight sm:text-4xl lg:text-[2.8rem]">Psicoterapia infantil com foco no brincar</h2>
+          <p class="reveal mt-5 max-w-[48ch] text-lg leading-relaxed text-ink-soft" style="--d:80ms">Atendimento para crianças e adolescentes. A psicoterapia infantil pode ajudar crianças com:</p>
+          <a data-msg="Olá, Renata! Vi a lista de serviços no site e gostaria de conversar sobre as dificuldades do meu filho(a)." data-track="servicos" href="https://wa.me/5511995009347" class="btn btn-soft reveal mt-8" style="--d:140ms">Conversar sobre meu filho</a>
+        </div>
+        <ul class="reveal border-b border-line" style="--d:100ms">
+          <li class="sign-row flex items-center justify-between gap-4 py-5 text-xl"><span>Ansiedade infantil</span></li>
+          <li class="sign-row flex items-center justify-between gap-4 py-5 text-xl"><span>Medo excessivo</span></li>
+          <li class="sign-row flex items-center justify-between gap-4 py-5 text-xl"><span>Irritabilidade e agressividade</span></li>
+          <li class="sign-row flex items-center justify-between gap-4 py-5 text-xl"><span>Insegurança</span></li>
+          <li class="sign-row flex items-center justify-between gap-4 py-5 text-xl"><span>Dificuldade de socialização</span></li>
+          <li class="sign-row flex items-center justify-between gap-4 py-5 text-xl"><span>Dificuldades escolares</span></li>
+          <li class="sign-row flex items-center justify-between gap-4 py-5 text-xl"><span>Mudança de comportamento</span></li>
+          <li class="sign-row flex items-center justify-between gap-4 py-5 text-xl"><span>Dificuldade para lidar com frustrações</span></li>
+          <li class="sign-row flex items-center justify-between gap-4 py-5 text-xl"><span>Deficiência ou transtornos do neurodesenvolvimento</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- COMO FUNCIONA -->
+    <section id="atendimento" class="bg-ink text-white">
+      <div class="mx-auto max-w-page px-5 py-20 md:px-10 lg:py-28">
+        <div class="grid gap-8 lg:grid-cols-2 lg:gap-20">
+          <h2 class="reveal text-3xl leading-tight sm:text-4xl lg:text-[2.8rem]">O que seu filho não consegue dizer, o atendimento certo pode compreender</h2>
+          <div class="reveal max-w-[62ch] space-y-4 text-lg leading-[1.75] text-white/80" style="--d:100ms">
+            <p>Criança não elabora o que sente do mesmo jeito que um adulto. O brincar é a forma mais natural que ela tem de mostrar medos, inseguranças e conflitos que ainda não consegue explicar.</p>
+            <p>Não é apenas fazer o comportamento parar. É ajudar a criança a construir mais segurança emocional, organização interna e melhores recursos para lidar com a própria rotina.</p>
+          </div>
+        </div>
+        <p class="reveal mt-16 text-lg font-bold text-peach-200">Com a Renata Pereira você recebe:</p>
+        <div class="mt-6 grid gap-px overflow-hidden rounded-3xl bg-white/15 sm:grid-cols-2 lg:grid-cols-3">
+          <article class="reveal bg-ink p-7 transition-colors hover:bg-[#33443f]"><h3 class="text-xl">Atendimento pensado para o universo infantil</h3><p class="mt-3 leading-relaxed text-white/75">Um espaço acolhedor, seguro e adaptado à realidade da criança.</p></article>
+          <article class="reveal bg-ink p-7 transition-colors hover:bg-[#33443f]" style="--d:60ms"><h3 class="text-xl">Respeito ao tempo de cada criança</h3><p class="mt-3 leading-relaxed text-white/75">Sem pressão, sem forçar respostas, sem exigir mais do que ela consegue dar naquele momento.</p></article>
+          <article class="reveal bg-ink p-7 transition-colors hover:bg-[#33443f]" style="--d:120ms"><h3 class="text-xl">Olhar para além do comportamento</h3><p class="mt-3 leading-relaxed text-white/75">O foco não está só no que a criança faz, mas no que ela está tentando comunicar.</p></article>
+          <article class="reveal bg-ink p-7 transition-colors hover:bg-[#33443f]"><h3 class="text-xl">Apoio para a família compreender melhor a criança</h3><p class="mt-3 leading-relaxed text-white/75">Mais clareza sobre os sinais, as necessidades emocionais e o processo terapêutico.</p></article>
+          <article class="reveal bg-ink p-7 transition-colors hover:bg-[#33443f]" style="--d:60ms"><h3 class="text-xl">Atendimento online e presencial</h3><p class="mt-3 leading-relaxed text-white/75">Flexibilidade para se adaptar à rotina da família.</p></article>
+          <article class="reveal bg-ink p-7 transition-colors hover:bg-[#33443f]" style="--d:120ms"><h3 class="text-xl">Experiência com neurodesenvolvimento e deficiência</h3><p class="mt-3 leading-relaxed text-white/75">Cuidado individualizado para diferentes necessidades infantis.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- OFERTAS -->
+    <section id="ofertas" class="mx-auto max-w-page px-5 py-20 md:px-10 lg:py-28">
+      <div class="max-w-2xl">
+        <h2 class="reveal text-3xl leading-tight sm:text-4xl lg:text-[2.8rem]">Escolha como começar</h2>
+        <p class="reveal mt-4 text-lg leading-relaxed text-ink-soft" style="--d:80ms">Valores e condições são combinados direto com a Renata pelo WhatsApp.</p>
+      </div>
+
+      <div class="mt-12 grid items-stretch gap-6 lg:grid-cols-3">
+        <article class="plan reveal flex flex-col rounded-[2rem] border border-line bg-white p-8">
+          <h3 class="text-2xl">Sessão pontual</h3>
+          <p class="mt-1 text-sm font-bold text-peach-700">Uma sessão</p>
+          <p class="mt-5 flex-1 leading-relaxed text-ink-soft">Para conhecer o atendimento, tirar dúvidas e entender se a psicoterapia é o caminho para o seu filho.</p>
+          <a data-msg="Olá, vi o site e tenho interesse na Sessão pontual. Pode me explicar como funciona, disponibilidade e valores?" data-track="sessao-pontual" href="https://wa.me/5511995009347" class="btn btn-ghost mt-8">Quero a sessão pontual</a>
+        </article>
+
+        <article class="plan reveal flex flex-col rounded-[2rem] bg-ink p-8 text-white lg:-mt-4 lg:mb-[-1rem]" style="--d:80ms">
+          <h3 class="text-2xl">Plano 90 dias</h3>
+          <p class="mt-1 text-sm font-bold text-peach-200">Acompanhamento de 3 meses</p>
+          <p class="mt-5 flex-1 leading-relaxed text-white/80">Um período contínuo de atendimento para a criança ser compreendida com calma e a família acompanhar o processo de perto.</p>
+          <a data-msg="Olá, vi o site e tenho interesse no Plano de 90 dias. Pode me explicar como funciona, disponibilidade e valores?" data-track="plano-90" href="https://wa.me/5511995009347" class="btn btn-light mt-8">Quero o plano de 90 dias</a>
+        </article>
+
+        <article class="plan reveal flex flex-col rounded-[2rem] border border-line bg-white p-8" style="--d:160ms">
+          <h3 class="text-2xl">Plano 180 dias</h3>
+          <p class="mt-1 text-sm font-bold text-peach-700">Acompanhamento de 6 meses</p>
+          <p class="mt-5 flex-1 leading-relaxed text-ink-soft">Mais tempo de cuidado para um trabalho no ritmo da criança, com apoio da família ao longo de todo o processo.</p>
+          <a data-msg="Olá, vi o site e tenho interesse no Plano de 180 dias. Pode me explicar como funciona, disponibilidade e valores?" data-track="plano-180" href="https://wa.me/5511995009347" class="btn btn-ghost mt-8">Quero o plano de 180 dias</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- SOBRE -->
+    <section id="sobre" class="bg-peach-100/60">
+      <div class="mx-auto grid max-w-page items-center gap-12 px-5 py-20 md:px-10 lg:grid-cols-[.7fr_1.3fr] lg:gap-20 lg:py-28">
+        <div class="reveal mx-auto w-full max-w-sm">
+          <div class="overflow-hidden rounded-[2rem] bg-peach-200">
+            <img src="assets/renata-1.webp" alt="Retrato de Renata Pereira, psicóloga" width="832" height="1248" loading="lazy" decoding="async" class="aspect-[4/5] w-full object-cover object-[50%_25%]">
+          </div>
+        </div>
+        <div class="max-w-[62ch]">
+          <h2 class="reveal text-3xl leading-tight sm:text-4xl lg:text-[2.8rem]">Renata Pereira</h2>
+          <p class="reveal mt-2 font-bold text-peach-700">Psicóloga, CRP 06/64053</p>
+          <div class="reveal mt-6 space-y-4 text-lg leading-[1.75] text-ink-soft" style="--d:80ms">
+            <p>Renata tem 24 anos de prática clínica e uma trajetória marcada pelo cuidado emocional de crianças e famílias.</p>
+            <p>Seu atendimento é voltado para crianças que apresentam sofrimento emocional, dificuldades comportamentais, insegurança, medo, dificuldades escolares, questões de socialização e demandas relacionadas ao desenvolvimento. Também tem experiência no acompanhamento de crianças com deficiência e transtornos do neurodesenvolvimento.</p>
+          </div>
+          <ul class="reveal mt-8 space-y-4 border-t border-line pt-6" style="--d:120ms">
+            <li><strong>Psicologia</strong><br><span class="text-ink-soft">Centro Universitário de Santo André</span></li>
+            <li><strong>Especialização em Psicoterapia Psicodinâmica: Transtornos Alimentares e Obesidade</strong><br><span class="text-ink-soft">Universidade Metodista de São Paulo</span></li>
+            <li><strong>Aprimoramento em Saúde Mental</strong><br><span class="text-ink-soft">Universidade Federal de São Paulo</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- AVALIAÇÕES -->
+    <section id="avaliacoes" class="mx-auto max-w-page px-5 py-20 md:px-10 lg:py-28">
+      <div class="flex flex-col justify-between gap-8 lg:flex-row lg:items-end">
+        <div class="max-w-xl">
+          <h2 class="reveal text-3xl leading-tight sm:text-4xl lg:text-[2.8rem]">O que as famílias dizem</h2>
+          <p class="reveal mt-4 text-lg text-ink-soft" style="--d:80ms">Avaliações reais deixadas no Google.</p>
+        </div>
+        <div class="reveal flex items-center gap-4 rounded-2xl border border-line bg-white px-6 py-4" style="--d:100ms">
+          <svg width="34" height="34" viewBox="0 0 48 48" aria-hidden="true"><path fill="#EA4335" d="M24 9.5c3.5 0 6.6 1.2 9.1 3.6l6.8-6.8C35.8 2.4 30.3 0 24 0 14.6 0 6.5 5.4 2.6 13.2l7.9 6.1C12.4 13.6 17.7 9.5 24 9.5z"/><path fill="#4285F4" d="M46.5 24.5c0-1.6-.1-3.1-.4-4.5H24v9h12.7c-.6 3-2.3 5.5-4.8 7.2l7.5 5.8c4.4-4.1 7.1-10.1 7.1-17.5z"/><path fill="#FBBC05" d="M10.5 28.7a14.500 14.500 0 0 1 0-9.4l-7.9-6.1a24 24 0 0 0 0 21.600l7.900-6.100z"/><path fill="#34A853" d="M24 48c6.500 0 11.900-2.100 15.900-5.800l-7.500-5.800c-2.100 1.400-4.800 2.300-8.400 2.300-6.300 0-11.600-4.100-13.500-9.800l-7.900 6.100C6.500 42.600 14.600 48 24 48z"/></svg>
+          <div>
+            <p class="flex items-center gap-2"><strong class="display text-3xl leading-none">5,0</strong>
+              <span class="stars" aria-label="5 de 5 estrelas"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3.1 6.6 7.200.9-5.300 5 1.400 7.200L12 18l-6.400 3.700L7 14.500 1.700 9.500l7.200-.9z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3.1 6.6 7.200.9-5.300 5 1.400 7.200L12 18l-6.400 3.700L7 14.500 1.700 9.500l7.200-.9z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3.1 6.6 7.200.9-5.300 5 1.400 7.200L12 18l-6.400 3.700L7 14.500 1.700 9.500l7.200-.9z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3.1 6.6 7.200.9-5.300 5 1.400 7.200L12 18l-6.400 3.700L7 14.500 1.700 9.500l7.200-.9z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3.1 6.6 7.200.9-5.300 5 1.400 7.200L12 18l-6.400 3.700L7 14.500 1.700 9.500l7.200-.9z"/></svg></span>
+            </p>
+            <p class="text-sm text-ink-soft">32 avaliações no Google</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="reviews-track -mx-5 mt-12 flex snap-x snap-mandatory gap-5 overflow-x-auto px-5 pb-4 md:mx-0 md:grid md:grid-cols-2 md:overflow-visible md:px-0 lg:grid-cols-3">
+        <!-- Estrela reutilizável: cada card repete 5 estrelas -->
+        <figure class="review reveal flex w-[85%] shrink-0 snap-center flex-col rounded-3xl border border-line bg-white p-7 md:w-auto">
+          <div class="flex items-center gap-3"><span class="grid h-11 w-11 place-items-center rounded-full bg-peach-200 font-bold" aria-hidden="true">A</span><div><p class="font-bold">Amanda Gomes</p><p class="text-sm text-ink-soft">há 5 meses</p></div></div>
+          <span class="stars mt-4" role="img" aria-label="5 estrelas"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.1 6.6 7.200.9-5.300 5 1.400 7.200L12 18l-6.400 3.700L7 14.500 1.700 9.500l7.200-.9z"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.1 6.6 7.200.9-5.300 5 1.400 7.200L12 18l-6.400 3.700L7 14.500 1.700 9.500l7.200-.9z"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.1 6.6 7.200.9-5.300 5 1.400 7.200L12 18l-6.400 3.700L7 14.500 1.700 9.500l7.200-.9z"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.1 6.6 7.200.9-5.300 5 1.400 7.200L12 18l-6.400 3.700L7 14.500 1.700 9.500l7.200-.9z"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.1 6.6 7.200.9-5.300 5 1.400 7.200L12 18l-6.400 3.700L7 14.500 1.700 9.500l7.200-.9z"/></svg></span>
+          <blockquote class="mt-4 flex-1 leading-relaxed text-ink-soft">A Renata é uma excelente profissional! Muito atenciosa, acolhedora e ética. Me senti segura desde o início. Recomendo!</blockquote>
+        </figure>
+
+        <figure class="review reveal flex w-[85%] shrink-0 snap-center flex-col rounded-3xl border border-line bg-white p-7 md:w-auto" style="--d:60ms">
+          <div class="flex items-center gap-3"><span class="grid h-11 w-11 place-items-center rounded-full bg-peach-100 font-bold" aria-hidden="true">F</span><div><p class="font-bold">Fla Pereira</p><p class="text-sm text-ink-soft">há 5 meses</p></div></div>
+          <span class="stars mt-4" role="img" aria-label="5 estrelas"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.1 6.6 7.200.9-5.300 5 1.400 7.200L12 18l-6.400 3.700L7 14.500 1.700 9.500l7.200-.9z"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.1 6.6 7.200.9-5.300 5 1.400 7.200L12 18l-6.400 3.700L7 14.500 1.700 9.500l7.200-.9z"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.1 6.6 7.200.9-5.300 5 1.400 7.200L12 18l-6.400 3.700L7 14.500 1.700 9.500l7.200-.9z"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.1 6.6 7.200.9-5.300 5 1.400 7.200L12 18l-6.400 3.700L7 14.500 1.700 9.500l7.200-.9z"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.1 6.6 7.200.9-5.300 5 1.400 7.200L12 18l-6.400 3.700L7 14.500 1.700 9.500l7.200-.9z"/></svg></span>
+          <blockquote class="mt-4 flex-1 leading-relaxed text-ink-soft">Dra Renata é uma excelente profissional. Consulta humanizada, de muito conhecimento, atenta aos detalhes e suas orientações são de supra importância para o tratamento. Muito gentil e educada. Super indico.</blockquote>
+        </figure>
+
+        <figure class="review reveal flex w-[85%] shrink-0 snap-center flex-col rounded-3xl border border-line bg-white p-7 md:w-auto" style="--d:120ms">
+          <div class="flex items-center gap-3"><span class="grid h-11 w-11 place-items-center rounded-full bg-peach-200 font-bold" aria-hidden="true">T</span><div><p class="font-bold">Tatiane Gobetti</p><p class="text-sm text-ink-soft">há 5 meses</p></div></div>
+          <span class="stars mt-4" role="img" aria-label="5 estrelas"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.1 6.6 7.200.9-5.300 5 1.400 7.200L12 18l-6.400 3.700L7 14.500 1.700 9.500l7.200-.9z"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.1 6.6 7.200.9-5.300 5 1.400 7.200L12 18l-6.400 3.700L7 14.500 1.700 9.500l7.200-.9z"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.1 6.6 7.200.9-5.300 5 1.400 7.200L12 18l-6.400 3.700L7 14.500 1.700 9.500l7.200-.9z"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.1 6.6 7.200.9-5.300 5 1.400 7.200L12 18l-6.400 3.700L7 14.500 1.700 9.500l7.200-.9z"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.1 6.6 7.200.9-5.300 5 1.400 7.200L12 18l-6.400 3.700L7 14.500 1.700 9.500l7.200-.9z"/></svg></span>
+          <blockquote class="mt-4 flex-1 leading-relaxed text-ink-soft">Conheço o trabalho da Psicóloga Renata Pereira e acho o trabalho dela impecável. Profissional dedicada, muito responsável e experiente.</blockquote>
+        </figure>
+
+        <figure class="review reveal flex w-[85%] shrink-0 snap-center flex-col rounded-3xl border border-line bg-white p-7 md:w-auto">
+          <div class="flex items-center gap-3"><span class="grid h-11 w-11 place-items-center rounded-full bg-peach-100 font-bold" aria-hidden="true">R</span><div><p class="font-bold">Rinalva Oliveira</p><p class="text-sm text-ink-soft">há 5 meses</p></div></div>
+          <span class="stars mt-4" role="img" aria-label="5 estrelas"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.1 6.6 7.200.9-5.300 5 1.400 7.200L12 18l-6.400 3.700L7 14.500 1.700 9.500l7.200-.9z"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.1 6.6 7.200.9-5.300 5 1.400 7.200L12 18l-6.400 3.700L7 14.500 1.700 9.500l7.200-.9z"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.1 6.6 7.200.9-5.300 5 1.400 7.200L12 18l-6.400 3.700L7 14.500 1.700 9.500l7.200-.9z"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.1 6.6 7.200.9-5.300 5 1.400 7.200L12 18l-6.400 3.700L7 14.500 1.700 9.500l7.200-.9z"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.1 6.6 7.200.9-5.300 5 1.400 7.200L12 18l-6.400 3.700L7 14.500 1.700 9.500l7.200-.9z"/></svg></span>
+          <blockquote class="mt-4 flex-1 leading-relaxed text-ink-soft">Super recomendo essa profissional, muito comprometida, atenciosa e deixa a pessoa. a vontade. Me senti muito acolhida.</blockquote>
+        </figure>
+
+        <figure class="review reveal flex w-[85%] shrink-0 snap-center flex-col rounded-3xl border border-line bg-white p-7 md:w-auto" style="--d:60ms">
+          <div class="flex items-center gap-3"><span class="grid h-11 w-11 place-items-center rounded-full bg-peach-200 font-bold" aria-hidden="true">L</span><div><p class="font-bold">Lillyh Souza</p><p class="text-sm text-ink-soft">há 5 meses</p></div></div>
+          <span class="stars mt-4" role="img" aria-label="5 estrelas"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.1 6.6 7.200.9-5.300 5 1.400 7.200L12 18l-6.400 3.700L7 14.500 1.700 9.500l7.200-.9z"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.1 6.6 7.200.9-5.300 5 1.400 7.200L12 18l-6.400 3.700L7 14.500 1.700 9.500l7.200-.9z"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.1 6.6 7.200.9-5.300 5 1.400 7.200L12 18l-6.400 3.700L7 14.500 1.700 9.500l7.200-.9z"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.1 6.6 7.200.9-5.300 5 1.400 7.200L12 18l-6.400 3.700L7 14.500 1.700 9.500l7.200-.9z"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.1 6.6 7.200.9-5.300 5 1.400 7.200L12 18l-6.400 3.700L7 14.500 1.700 9.500l7.200-.9z"/></svg></span>
+          <blockquote class="mt-4 flex-1 leading-relaxed text-ink-soft">Execente profissional... atendimento impecável, fácil localização...indico de olhos fechados.</blockquote>
+        </figure>
+
+        <figure class="review reveal flex w-[85%] shrink-0 snap-center flex-col rounded-3xl border border-line bg-white p-7 md:w-auto" style="--d:120ms">
+          <div class="flex items-center gap-3"><span class="grid h-11 w-11 place-items-center rounded-full bg-peach-100 font-bold" aria-hidden="true">L</span><div><p class="font-bold">Liza Inácio</p><p class="text-sm text-ink-soft">há 10 meses</p></div></div>
+          <span class="stars mt-4" role="img" aria-label="5 estrelas"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.1 6.6 7.200.9-5.300 5 1.400 7.200L12 18l-6.400 3.700L7 14.500 1.700 9.500l7.200-.9z"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.1 6.6 7.200.9-5.300 5 1.400 7.200L12 18l-6.400 3.700L7 14.500 1.700 9.500l7.200-.9z"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.1 6.6 7.200.9-5.300 5 1.400 7.200L12 18l-6.400 3.700L7 14.500 1.700 9.500l7.200-.9z"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.1 6.6 7.200.9-5.300 5 1.400 7.200L12 18l-6.400 3.700L7 14.500 1.700 9.500l7.200-.9z"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.1 6.6 7.200.9-5.300 5 1.400 7.200L12 18l-6.400 3.700L7 14.500 1.700 9.500l7.200-.9z"/></svg></span>
+          <blockquote class="mt-4 flex-1 leading-relaxed text-ink-soft">…ela desenvolveu com ele um trabalho muito bom que ajudou ele a ter autoconfiança também ajudou na escola né porque ele teve muita dificuldade depois da pandemia de retornar para escola também ajuda na capacitação dele para ele perder o medo e também para se socializar juntamente com outros jovens…</blockquote>
+        </figure>
+      </div>
+
+      <div class="reveal mt-10 flex flex-col items-start gap-4 sm:flex-row sm:items-center">
+        <a href="https://www.google.com/maps/place/Psic%C3%B3loga+infantil+Renata+Pereira/@-23.6658287,-46.4606531,17z" target="_blank" rel="noopener" class="btn btn-ghost">Ver todas as avaliações no Google</a>
+        <p class="text-sm text-ink-soft">Você pode conferir cada avaliação no perfil oficial.</p>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="duvidas" class="bg-peach-100/60">
+      <div class="mx-auto grid max-w-page gap-12 px-5 py-20 md:px-10 lg:grid-cols-[.8fr_1.2fr] lg:gap-20 lg:py-28">
+        <div>
+          <h2 class="reveal text-3xl leading-tight sm:text-4xl lg:text-[2.8rem]">Talvez você ainda tenha dúvidas</h2>
+          <p class="reveal mt-4 text-lg text-ink-soft" style="--d:80ms">Aqui estão respostas sinceras e acolhedoras.</p>
+        </div>
+        <div class="reveal border-t border-line" style="--d:100ms">
+          <details class="border-b border-line px-2 transition-colors"><summary class="flex items-center justify-between gap-6 py-5 text-lg font-bold">Como saber se meu filho precisa de psicoterapia?<span class="chev text-2xl" aria-hidden="true">+</span></summary><p class="max-w-[62ch] pb-6 leading-relaxed text-ink-soft">Quando mudanças de comportamento, medo, irritação, dificuldade escolar, socialização ou sofrimento emocional começam a se repetir e afetar a rotina, já é importante buscar avaliação.</p></details>
+          <details class="border-b border-line px-2 transition-colors"><summary class="flex items-center justify-between gap-6 py-5 text-lg font-bold">Meu filho não sabe falar sobre o que sente. Ainda assim a terapia ajuda?<span class="chev text-2xl" aria-hidden="true">+</span></summary><p class="max-w-[62ch] pb-6 leading-relaxed text-ink-soft">Sim. A criança não precisa conseguir explicar tudo com clareza para ser ajudada. O atendimento infantil considera a forma como ela consegue se comunicar em cada fase.</p></details>
+          <details class="border-b border-line px-2 transition-colors"><summary class="flex items-center justify-between gap-6 py-5 text-lg font-bold">Esse atendimento é só para crianças com diagnóstico?<span class="chev text-2xl" aria-hidden="true">+</span></summary><p class="max-w-[62ch] pb-6 leading-relaxed text-ink-soft">Não. A psicoterapia pode ajudar tanto crianças com diagnóstico quanto crianças que apresentam sinais de sofrimento emocional, comportamental ou dificuldades no desenvolvimento.</p></details>
+          <details class="border-b border-line px-2 transition-colors"><summary class="flex items-center justify-between gap-6 py-5 text-lg font-bold">Pais e responsáveis participam do processo?<span class="chev text-2xl" aria-hidden="true">+</span></summary><p class="max-w-[62ch] pb-6 leading-relaxed text-ink-soft">Sim, quando necessário. A participação da família ajuda a compreender melhor a criança e fortalece o cuidado fora do consultório.</p></details>
+          <details class="border-b border-line px-2 transition-colors"><summary class="flex items-center justify-between gap-6 py-5 text-lg font-bold">Você atende online e presencialmente?<span class="chev text-2xl" aria-hidden="true">+</span></summary><p class="max-w-[62ch] pb-6 leading-relaxed text-ink-soft">Sim. O atendimento pode acontecer nas duas modalidades, de acordo com a necessidade da família.</p></details>
+          <details class="border-b border-line px-2 transition-colors"><summary class="flex items-center justify-between gap-6 py-5 text-lg font-bold">Você atende crianças com deficiência ou transtornos do neurodesenvolvimento?<span class="chev text-2xl" aria-hidden="true">+</span></summary><p class="max-w-[62ch] pb-6 leading-relaxed text-ink-soft">Sim. O trabalho considera a singularidade de cada criança, respeitando seu ritmo, suas necessidades e sua forma de desenvolvimento.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section id="contato" class="mx-auto max-w-page px-5 py-20 md:px-10 lg:py-28">
+      <div class="grid gap-12 lg:grid-cols-2 lg:gap-16">
+        <div>
+          <h2 class="reveal text-3xl leading-tight sm:text-4xl lg:text-[2.8rem]">Ficou com alguma dúvida? Fale com a Renata</h2>
+          <p class="reveal mt-4 max-w-[52ch] text-lg leading-relaxed text-ink-soft" style="--d:80ms">Se o comportamento do seu filho vem preocupando você, talvez este seja o momento de buscar ajuda profissional.</p>
+          <a data-msg="Olá, Renata! Vim pelo site e gostaria de agendar um atendimento. Pode me passar os horários disponíveis?" data-track="contato" href="https://wa.me/5511995009347" class="btn btn-primary reveal mt-8" style="--d:120ms">Agendar pelo WhatsApp</a>
+          <dl class="reveal mt-10 space-y-6 border-t border-line pt-8" style="--d:140ms">
+            <div><dt class="text-sm font-bold text-peach-700">Atendimento presencial</dt><dd class="mt-1 text-lg">Rua do Comércio, 21, sala 206, 2º andar<br>Shopping de Mauá, Centro, Mauá/SP, CEP 09390-015</dd></div>
+            <div><dt class="text-sm font-bold text-peach-700">Horário</dt><dd class="mt-1 text-lg">Segunda a sexta, das 9h às 19h<br>Sábado, das 9h às 13h<br>Também atendo online</dd></div>
+            <div><dt class="text-sm font-bold text-peach-700">WhatsApp</dt><dd class="mt-1 text-lg"><a data-msg="Olá, Renata! Vim pelo site e gostaria de falar com você." data-track="contato-telefone" href="https://wa.me/5511995009347" class="link-u">(11) 99500-9347</a></dd></div>
+          </dl>
+        </div>
+        <div class="reveal overflow-hidden rounded-[2rem] border border-line bg-peach-100" style="--d:100ms">
+          <iframe title="Mapa do consultório no Shopping de Mauá" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="h-full min-h-[22rem] w-full" src="https://maps.google.com/maps?q=-23.6658287,-46.4606531&z=16&output=embed"></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- RODAPÉ -->
+  <footer class="border-t border-peach-200 bg-peach-100">
+    <div class="mx-auto grid max-w-page gap-12 px-5 py-16 md:px-10 lg:grid-cols-[1.2fr_.8fr_1fr_.6fr]">
+      <div>
+        <img src="assets/logo.webp" alt="Renata Pereira, Psicóloga" width="690" height="830" loading="lazy" class="logo-img h-28 w-auto">
+        <p class="mt-4 text-sm text-ink-soft">CRP 06/64053</p>
+      </div>
+      <nav aria-label="Rodapé">
+        <p class="font-bold">Navegação</p>
+        <ul class="mt-4 space-y-2 text-ink-soft">
+          <li><a href="#servicos" class="link-u">Serviços</a></li>
+          <li><a href="#atendimento" class="link-u">Como funciona</a></li>
+          <li><a href="#ofertas" class="link-u">Planos</a></li>
+          <li><a href="#sobre" class="link-u">Sobre</a></li>
+          <li><a href="#avaliacoes" class="link-u">Avaliações</a></li>
+          <li><a href="#duvidas" class="link-u">Dúvidas</a></li>
+          <li><a href="#contato" class="link-u">Contato</a></li>
+        </ul>
+      </nav>
+      <div>
+        <p class="font-bold">Contato</p>
+        <ul class="mt-4 space-y-3 text-ink-soft">
+          <li><a data-msg="Olá, Renata! Vim pelo site e gostaria de falar com você." data-track="rodape" href="https://wa.me/5511995009347" class="link-u">WhatsApp: (11) 99500-9347</a></li>
+          <li>Rua do Comércio, 21, sala 206, 2º andar<br>Shopping de Mauá, Mauá/SP, 09390-015</li>
+          <li>Seg a sex, 9h às 19h<br>Sáb, 9h às 13h</li>
+        </ul>
+      </div>
+      <div>
+        <p class="font-bold">Redes</p>
+        <ul class="mt-4 flex gap-3">
+          <li><a href="https://www.instagram.com/psicologarenatapereira/" target="_blank" rel="noopener" aria-label="Instagram de Renata Pereira" class="grid h-12 w-12 place-items-center rounded-full bg-white transition-transform hover:-translate-y-1 hover:bg-ink hover:text-white">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.500" cy="6.500" r="1" fill="currentColor" stroke="none"/></svg></a></li>
+          <li><a href="https://www.google.com/maps/place/Psic%C3%B3loga+infantil+Renata+Pereira/@-23.6658287,-46.4606531,17z" target="_blank" rel="noopener" aria-label="Perfil de Renata Pereira no Google" class="grid h-12 w-12 place-items-center rounded-full bg-white transition-transform hover:-translate-y-1 hover:bg-ink hover:text-white">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M21.800 10.200H12v3.900h5.600c-.5 2.600-2.700 4-5.600 4a6.200 6.200 0 1 1 4-10.900l2.800-2.800A10.100 10.100 0 1 0 12 22c5.800 0 9.900-4 9.900-9.800 0-.7-.1-1.300-.1-2z"/></svg></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="border-t border-peach-200">
+      <p class="mx-auto max-w-page px-5 py-5 text-center text-sm text-ink-soft md:px-10">© 2026 Renata Pereira - Todos os direitos reservados.</p>
+    </div>
+    <div class="bg-ink">
+      <p class="mx-auto max-w-page px-5 py-4 text-center text-sm text-white/80 md:px-10">Site desenvolvido por <a href="https://teocode.com.br/" target="_blank" rel="noopener" class="font-bold text-white link-u">TeoCode</a> · © 2026 TeoCode</p>
+    </div>
+  </footer>
+
+  <!-- WhatsApp flutuante -->
+  <a data-msg="Olá, Renata! Vim pelo site e gostaria de tirar uma dúvida." data-track="flutuante" href="https://wa.me/5511995009347" class="wa-float btn !p-4 text-white shadow-lg" style="background:#1f9d55" aria-label="Falar com Renata no WhatsApp">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.600 15.100L2 22l5-1.300A10 10 0 1 0 12 2zm5.800 14.200c-.2.700-1.400 1.300-1.900 1.300-.5.100-1.100.1-1.800-.1-.4-.1-1-.3-1.700-.6-3-1.300-4.900-4.300-5.100-4.500-.1-.2-1.200-1.600-1.200-3s.8-2.100 1-2.400c.3-.3.6-.3.8-.3h.6c.2 0 .4 0 .6.5l.9 2.100c.1.2.1.4 0 .5l-.4.6-.3.4c-.1.1-.3.3-.1.6.1.3.7 1.200 1.500 1.900 1 .9 1.900 1.200 2.200 1.300.3.1.4.1.6-.1l.8-1c.2-.3.4-.2.6-.1l2 1c.3.1.5.2.5.4.1.1.1.7-.1 1.400z"/></svg>
+  </a>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
